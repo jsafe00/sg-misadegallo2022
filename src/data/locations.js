@@ -9,6 +9,7 @@ export const locations = [
       lng: 103.85575281346583 
     },
     todo: [
+      'Theme: Mary and Her Profound Humility',
     ]
   },
   {
@@ -21,6 +22,7 @@ export const locations = [
       lng: 103.91873808673121 
     },
     todo: [
+      'Theme: Mary and Her Blind Obidience',
     ]
   },
   {
@@ -33,6 +35,7 @@ export const locations = [
       lng: 103.83357725800526 
     },
     todo: [
+      'Theme: Mary and Her Universal Mortification',
     ]
   },
   {
@@ -45,6 +48,7 @@ export const locations = [
       lng: 103.8510413087729
     },
     todo: [
+      'Theme: Mary and Her Lively Faith and Continual Prayer',
     ]
   },
   {
@@ -57,6 +61,7 @@ export const locations = [
       lng: 103.85103328464736 
     },
     todo: [
+      'Theme: Mary and Her Divine Purity',
     ]
   },
 
