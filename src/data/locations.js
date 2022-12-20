@@ -50,7 +50,7 @@ export const locations = [
   {
     church: '6',
     placename: 'Cathedral of the Good Shepherd',
-    info: 'https://drive.google.com/drive/folders/15EHermOAzDEx9gKirgV-fZ9VfOTc50BW?usp=share_link',
+    info: 'https://drive.google.com/drive/folders/1xbhXyT_pZ9OUimAZ6J1ZJNejHWm2IeeH?usp=share_link',
     image: 'https://lh3.googleusercontent.com/0Tft01NYAfmC0bTWqTK-b1WG-UU9lExWtOWTLPHCU4GSD_nvMO0a0eU-QkinucC2OQFvBIz33_TvpGO4a1snRPLz1q_kZI0mJEwJ-9AQVIifT0t27t76e-YUA5udETj1ADgcFUlC8W8=w2400',
     location: {
       lat: 1.2965251290418498, 
