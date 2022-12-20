@@ -71,12 +71,13 @@ export default IndexPage;
 function createTripPointsGeoJson({ locations } = {}) {
   return {
     "type": "FeatureCollection",
-    "features": locations.map(({ church, placename, location = {}, image, info, todo = [] } = {}) => {
+    "features": locations.map(({ church, address, placename, location = {}, image, info, todo = [] } = {}) => {
       const { lat, lng } = location;
       return {
         "type": "Feature",
         "properties": {
           church,
+          address,
           placename,
           todo,
           info,
@@ -103,10 +104,11 @@ function createTripLinesGeoJson({ locations } = {}) {
 
       if ( !prevStop ) return [];
 
-      const { church, placename, location = {}, info, todo = [] } = stop;
+      const { church, address, placename, location = {}, info, todo = [] } = stop;
       const { lat, lng } = location;
       const properties = {
         church,
+        address,
         placename,
         todo,
         info
@@ -136,7 +138,7 @@ function createTripLinesGeoJson({ locations } = {}) {
 
 function tripStopPointToLayer( feature = {}, latlng ) {
   const { properties = {} } = feature;
-  const {church, placename, todo = [], image, info } = properties;
+  const {church, address, placename, todo = [], image, info } = properties;
 
   const list = todo.map(what => `<li>${ what }</li>`);
   let listString = '';
@@ -161,6 +163,7 @@ function tripStopPointToLayer( feature = {}, latlng ) {
       ${ imageString }
       <div class="trip-stop-content">
         <h2>${placename}</h2>
+        <p>${address}</p>
         <p class="trip-stop-date"><a href="${info}" target="_blank">More Photos</a></p>
         ${ listString }
       </div>
