@@ -69,5 +69,19 @@ export const locations = [
       'Theme: Mary and Her Divine Purity',
     ]
   },
+  {
+    church: 'Day 6',
+    placename: 'Church of the Blessed Sacrament',
+    address: '1 Commonwealth Drive, Singapore 149603',
+    info: 'https://drive.google.com/drive/folders/1ytPNZ_VotOTadwo7qbrm4RUnlV2mu-ti?usp=share_link',
+    image: 'https://lh3.googleusercontent.com/hY7G2cCZ5J8R3UKKeKFto5mPjKeoxD5gAuTFwVIx8A0INEb_ZmEnnQMRlRzFcpD-gIuZ1S6uIL95VaYWfycao3H_mcHyCyq4xn7w2N7q28xS0a6PvmBaseIPqhVyiNStKeb0h0p0j18=w2400',
+    location: {
+      lat: 1.2960813812936987, 
+      lng: 103.79898237130654 
+    },
+    todo: [
+      'Theme: Mary and Her Ardent Charity',
+    ]
+  },
 
 ];
