@@ -83,5 +83,19 @@ export const locations = [
       'Theme: Mary and Her Ardent Charity',
     ]
   },
+  {
+    church: 'Day 7',
+    placename: 'Church of Divine Mercy',
+    address: '19 Pasir Ris Street 72, Singapore 518771',
+    info: 'https://drive.google.com/drive/folders/133cyZCqbigInoC-I6sqsgP14vWlvmtV2?usp=share_link',
+    image: 'https://lh3.googleusercontent.com/4ZBFVoRu76-RKmmDJzZo_WNfykQcexqaV8TkLknJMXPolDn50_oPQrciMpDZc9oB2dIJHwsd1ZFM4siUD-haLwBC-Dgw_UoWjGIDtReanaT2S2qV3dbOpf7Ibk4jLEPxbcYMSlgJFt4=w2400',
+    location: {
+      lat: 1.3808091413705017, 
+      lng: 103.93610827125754 
+    },
+    todo: [
+      'Theme: Mary and Her Heroic Patience',
+    ]
+  },
 
 ];
