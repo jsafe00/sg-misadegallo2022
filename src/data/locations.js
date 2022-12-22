@@ -24,7 +24,7 @@ export const locations = [
       lng: 103.91873808673121 
     },
     todo: [
-      'Theme: Mary and Her Blind Obidience',
+      'Theme: Mary and Her Blind Obedience',
     ]
   },
   {
