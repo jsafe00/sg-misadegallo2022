@@ -97,5 +97,18 @@ export const locations = [
       'Theme: Mary and Her Heroic Patience',
     ]
   },
-
+  {
+    church: 'Day 8',
+    placename: 'Church of Christ the King',
+    address: '2221 Ang Mo Kio  Avenue 8, Singapore 569809',
+    info: 'https://drive.google.com/drive/folders/14C-H_YyDzPWl5Ih_UWeZe5EooXKDkF5-?usp=share_link',
+    image: 'https://lh3.googleusercontent.com/j9DnBiXWSEkyiHNAEsIs0bTvN94r2kW_aT3H8NAdVTEs4uLgDtbsCdcwAvyZ2JxbjQnCNpwjbEOcDEnvyTXBrg0bVJriBJ2qUGHiub9sAiTVfxq767_rWOq6jxrjxt0xcot7oPjvmfw=w2400',
+    location: {
+      lat: 1.3621589143455417, 
+      lng: 103.8525214578194
+    },
+    todo: [
+      'Theme: Mary and Her Angelic Sweetness',
+    ]
+  },
 ];
