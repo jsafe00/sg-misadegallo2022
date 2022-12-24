@@ -111,4 +111,18 @@ export const locations = [
       'Theme: Mary and Her Angelic Sweetness',
     ]
   },
+  {
+    church: 'Day 9',
+    placename: 'Church of our Lady Star of the Sea',
+    address: '10 Yishun Street 22, Singapore 768579',
+    info: 'https://drive.google.com/drive/folders/16ULojRiOef3yZhh8HsNBE2oiDIsZgfFn?usp=share_link',
+    image: 'https://lh3.googleusercontent.com/UgTWcAQhzO5axhaQNhJBUN1VhHNXitYh_pj32xeZqVEZRHZHSKx3sY3Me1pW8UW9cUMYF9wYtc9P6GT9mECmTArvLQb2pdtMLLTWmX94knGRKv9EfTos0Bp5xfmRYked_8V6JzIQQDU=w2400',
+    location: {
+      lat: 1.437577934751777, 
+      lng: 103.83756918465497
+    },
+    todo: [
+      'Theme: Mary and Her Divine Wisdom',
+    ]
+  },
 ];
