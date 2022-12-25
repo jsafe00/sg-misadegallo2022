@@ -125,4 +125,18 @@ export const locations = [
       'Theme: Mary and Her Divine Wisdom',
     ]
   },
+  {
+    church: 'Christmas Eve',
+    placename: 'Church of Saint Alphonsus (Novena Church)',
+    address: '300 Thomson Rd Novena, Singapore 307653',
+    info: 'https://drive.google.com/drive/folders/19An9tFieqivnbaXvVr2-_p6Mgqtm7iNo?usp=share_link',
+    image: 'https://lh3.googleusercontent.com/MdJVnhz2MKBu2_dxkaJWtVmjodFkf8E7nvfQKs9Zb_XTw27SZgPgCo_xkFZzKkA3n8qyrB3R6iJ7_LZxoi4wA-mREkzLtXP64sGSDh6GChYqNRh9yg_5ZH29ykFL1tppNw-5xxu8LV0=w2400',
+    location: {
+      lat: 1.3219402999168077, 
+      lng: 103.84269881565533
+    },
+    todo: [
+      'Theme: Gloria in excelsis Deo',
+    ]
+  },
 ];
