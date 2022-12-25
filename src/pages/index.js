@@ -57,7 +57,14 @@ const IndexPage = () => {
       </Helmet>
 
       <Map {...mapSettings} />
-
+      <Container type="content" className="text-center home-start">
+        <p>
+        My first time to attend and complete 9 days misa de gallo/simbang gabi outside Philippines + attended Christmas Eve mass at Novena Church. <br />
+        Thank you for this wonderful experience. 🇸🇬 I'm so happy. Best christmas gift for myself. <br />
+        Merry christmas everyone. 🥰 <br />
+        #paskongpinoy #christmas2022 #✅️bucketlist #jollikid😂 #forevergrateful #foreverblessed
+        </p>
+      </Container>
     </Layout>
   );
 };
